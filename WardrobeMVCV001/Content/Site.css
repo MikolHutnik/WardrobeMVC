@@ -23,5 +23,11 @@ textarea {
     max-width: 280px;
 }
 
+/*navbar styling*/
+
+nav li{
+    padding:10px;
+}
+
 
 
