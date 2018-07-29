@@ -4,56 +4,60 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<div class="container">
+    <h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-
-        <div>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <div class="row">
+        <div class="col">
             @Html.DisplayNameFor(model => model.Name)
         </div>
-        <div>
+        <div class="col">
             @Html.DisplayNameFor(model => model.Photo)
         </div>
-        <div>
+        <div class="col">
             @Html.DisplayNameFor(model => model.Type)
         </div>
-        <div>
+        <div class="col">
             @Html.DisplayNameFor(model => model.Color)
         </div>
-        <div>
+        <div class="col">
             @Html.DisplayNameFor(model => model.Season)
         </div>
-        <div>
+        <div class="col">
             @Html.DisplayNameFor(model => model.Occasion)
         </div>
-    
+    </div>
 
-@foreach (var item in Model) {
-   
-        <div>
-            @Html.DisplayFor(modelItem => item.Name)
-        </div>
-        <div>
-            @Html.DisplayFor(modelItem => item.Photo)
-        </div>
-        <div>
-            @Html.DisplayFor(modelItem => item.Type)
-        </div>
-        <div>
-            @Html.DisplayFor(modelItem => item.Color)
-        </div>
-        <div>
-            @Html.DisplayFor(modelItem => item.Season)
-        </div>
-        <div>
-            @Html.DisplayFor(modelItem => item.Occasion)
-        </div>
-        <div>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ShoeID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ShoeID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ShoeID })
-        </div>
-}
-
+    <div class="container">
+        @foreach (var item in Model)
+        {<div class="row">
+                <div class="col">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </div>
+                <div class="col">
+                    <img src="~/Images/@Html.DisplayFor(modelItem => item.Photo)" style="width:75px;" />
+                </div>
+                <div class="col">
+                    @Html.DisplayFor(modelItem => item.Type)
+                </div>
+                <div class="col">
+                    @Html.DisplayFor(modelItem => item.Color)
+                </div>
+                <div class="col">
+                    @Html.DisplayFor(modelItem => item.Season)
+                </div>
+                <div class="col">
+                    @Html.DisplayFor(modelItem => item.Occasion)
+                </div>
+                <div class="col">
+                    <button class="button">@Html.ActionLink("Edit", "Edit", new { id = item.ShoeID }) </button>|
+                    <button class="button">@Html.ActionLink("Details", "Details", new { id = item.ShoeID })</button> |
+                    <button class="button">@Html.ActionLink("Delete", "Delete", new { id = item.ShoeID })</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
