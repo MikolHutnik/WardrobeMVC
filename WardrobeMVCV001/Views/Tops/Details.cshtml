@@ -4,7 +4,69 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<div class="container">
+    <h2>Details</h2>
+
+    <div>
+        <h4>Tops</h4>
+        <hr />
+        <div class="row">
+            <div class="col">
+                @Html.DisplayNameFor(model => model.Name)
+            </div>
+
+            <div class="col">
+                @Html.DisplayFor(model => model.Name)
+            </div>
+
+            <div class="col">
+                @Html.DisplayNameFor(model => model.Photo)
+            </div>
+
+            <div class="col">
+                @Html.DisplayFor(model => model.Photo)
+            </div>
+
+            <div class="col">
+                @Html.DisplayNameFor(model => model.Type)
+            </div>
+
+            <div class="col">
+                @Html.DisplayFor(model => model.Type)
+            </div>
+
+            <div class="col">
+                @Html.DisplayNameFor(model => model.Color)
+            </div>
+
+            <div class="col">
+                @Html.DisplayFor(model => model.Color)
+            </div>
+
+            <div class="col">
+                @Html.DisplayNameFor(model => model.Season)
+            </div>
+
+            <div class="col">
+                @Html.DisplayFor(model => model.Season)
+            </div>
+
+            <div class="col">
+                @Html.DisplayNameFor(model => model.Occasion)
+            </div>
+
+            <div class="col">
+                @Html.DisplayFor(model => model.Occasion)
+            </div>
+
+        </div>
+    </div>
+    <p>
+        <button class="button">@Html.ActionLink("Edit", "Edit", new { id = Model.TopID })</button> |
+        <button class="button">@Html.ActionLink("Back to List", "Index")</button>
+    </p>
+</div>
+@*<h2>Details</h2>
 
 <div>
     <h4>Top</h4>
@@ -63,4 +125,4 @@
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.TopID }) |
     @Html.ActionLink("Back to List", "Index")
-</p>
+</p>*@
