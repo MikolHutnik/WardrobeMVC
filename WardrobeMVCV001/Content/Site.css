@@ -31,5 +31,12 @@ nav li{
     background-repeat:
 }
 
+/*background*/
+body {
+     background-image: url('../Images/Closet.jpg');
+     background-size:cover;
+}
 
-
+.container{
+    background-color:cornsilk;
+}
