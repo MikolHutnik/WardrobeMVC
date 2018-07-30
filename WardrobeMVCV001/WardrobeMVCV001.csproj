@@ -250,8 +250,44 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\AmericanEagle.jpg" />
+    <Content Include="Images\BatManTie.jpg" />
+    <Content Include="Images\BlueTie.jpg" />
+    <Content Include="Images\CargoShorts.jpg" />
+    <Content Include="Images\CharcoalDressPants.jpg" />
+    <Content Include="Images\Chicks.jpg" />
+    <Content Include="Images\CowboyHat.jpg" />
+    <Content Include="Images\DressShoesBrown.jpg" />
+    <Content Include="Images\DressWhite.jpg" />
+    <Content Include="Images\MensDressShoesBlack.jpg" />
+    <Content Include="Images\MusicTie.jpg" />
+    <Content Include="Images\NewsBoyHat.jpg" />
+    <Content Include="Images\NikeWhite.jpg" />
+    <Content Include="Images\OldNavy.jpg" />
+    <Content Include="Images\Reebok.jpg" />
+    <Content Include="Images\ReSized\AmericanEagle_500x500.jpg" />
+    <Content Include="Images\ReSized\BatManTie_500x500.jpg" />
+    <Content Include="Images\ReSized\BlueTie_500x500.jpg" />
+    <Content Include="Images\ReSized\CargoShorts_500x500.jpg" />
+    <Content Include="Images\ReSized\CharcoalDressPants_500x500.jpg" />
+    <Content Include="Images\ReSized\Chicks_500x500.jpg" />
+    <Content Include="Images\ReSized\CowboyHat_500x500.jpg" />
+    <Content Include="Images\ReSized\DressShoesBrown_500x500.jpg" />
+    <Content Include="Images\ReSized\DressWhite_500x500.jpg" />
+    <Content Include="Images\ReSized\MensDressShoesBlack_500x500.jpg" />
+    <Content Include="Images\ReSized\MusicTie_500x500.jpg" />
+    <Content Include="Images\ReSized\NewsBoyHat_500x500.jpg" />
+    <Content Include="Images\ReSized\NikeWhite_500x500.jpg" />
+    <Content Include="Images\ReSized\OldNavy_500x500.jpg" />
+    <Content Include="Images\ReSized\Reebok_1_500x500.jpg" />
+    <Content Include="Images\ReSized\Reebok_500x500.jpg" />
+    <Content Include="Images\ReSized\Rolex_3_500x500.jpg" />
+    <Content Include="Images\ReSized\Seiko_500x500.jpg" />
+    <Content Include="Images\ReSized\StaffordBlue_500x500.jpg" />
+    <Content Include="Images\ReSized\WranglerJeans_500x500.jpg" />
     <Content Include="Images\Rolex.jpg" />
     <Content Include="Images\Seiko.jpg" />
+    <Content Include="Images\StaffordBlue.jpg" />
+    <Content Include="Images\WranglerJeans.jpg" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
